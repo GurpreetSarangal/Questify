@@ -161,21 +161,21 @@
     cursor: pointer;
   }
   
-  .modal-Field {
+  .modal-field {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     flex: 1;
   }
   
-  .modal-Field > .modal-fieldLink {
+  .modal-field > .modal-fieldLink {
     color: gray;
     display: flex;
     margin-top: 10px;
     align-items: center;
   }
   
-  .modal-Field > .modal-fieldLink > input {
+  .modal-field > .modal-fieldLink > input {
     flex: 1;
     border: none;
     outline: none;

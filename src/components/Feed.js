@@ -7,6 +7,10 @@ function Feed() {
     <div>
       <Box/>
       <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
     </div>
   )
 }
