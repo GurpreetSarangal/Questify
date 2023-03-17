@@ -6,7 +6,7 @@ function WidgetContent() {
     <div className=" widget__contents">
       <div className="widget__content">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-ti-1737435-100-jxcfmjdvwvpkcketifttdmeeimxcatua.jpeg"
+          src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/11/02235040/how-to-become-a-mobile-app-developer.png"
           alt=""
         />
         <div className="widget__contentTitle">

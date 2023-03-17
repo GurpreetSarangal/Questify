@@ -19,7 +19,7 @@
   }
   
   .header-logo > img {
-    height: 100px !important;
+    height: 75px !important;
     object-fit: contain;
   }
   
@@ -119,14 +119,14 @@
     background: rgb(214, 214, 214);
   }
   
-  .modal__title {
+  .modal-title {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
     border-bottom: 1px solid rgba(187, 187, 187, 0.5);
   }
   
-  .modal__title > h5 {
+  .modal-title > h5 {
     color: gray;
     font-size: 20px;
     cursor: pointer;
@@ -134,23 +134,23 @@
     margin-right: 30px;
   }
   
-  .modal__title > h5:hover {
+  .modal-title > h5:hover {
     color: #b92b27;
   }
   
-  .modal__info {
+  .modal-info {
     display: flex;
     align-items: center;
     margin-top: 30px;
   }
   
-  .modal__info > p {
+  .modal-info > p {
     margin-left: 10px;
     font-size: small;
     color: gray;
   }
   
-  .modal__info > .modal__scope {
+  .modal-info > .modal-scope {
     display: flex;
     align-items: center;
     color: rgb(98, 98, 98);
@@ -161,35 +161,35 @@
     cursor: pointer;
   }
   
-  .modal__Field {
+  .modal-Field {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     flex: 1;
   }
   
-  .modal__Field > .modal__fieldLink {
+  .modal-Field > .modal-fieldLink {
     color: gray;
     display: flex;
     margin-top: 10px;
     align-items: center;
   }
   
-  .modal__Field > .modal__fieldLink > input {
+  .modal-Field > .modal-fieldLink > input {
     flex: 1;
     border: none;
     outline: none;
     margin-left: 5px;
   }
   
-  .modal__buttons {
+  .modal-buttons {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 10px;
     align-items: center;
   }
   
-  .modal__buttons > .cancle {
+  .modal-buttons > .cancel {
     margin-top: 10px;
     border: none;
     outline: none;
@@ -200,11 +200,11 @@
     cursor: pointer;
   }
   
-  .modal__buttons > .cancle:hover {
+  .modal-buttons > .cancel:hover {
     color: red;
   }
   
-  .modal__buttons > .add {
+  .modal-buttons > .add {
     border: none;
     outline: none;
     margin-top: 10px;
@@ -217,7 +217,7 @@
     width: 50%;
   }
   
-  .modal__buttons > .add:hover {
+  .modal-buttons > .add:hover {
     background-color: #eee;
     color: #222;
   }
